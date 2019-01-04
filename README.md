@@ -5,12 +5,12 @@ https://www.xenproject.org/developers/teams/unikraft.html
 centos enviroment is required.
 install make ver 4.0.
 ```
-git clone https://github.com/ppmuser2018/unikraft-test.git
+git clone https://github.com/ppmuser2018/unikraft-starter.git
 ```
 
 ## Build helloworld by Unikraft
 ```
-cd ./apps/helloworld
+cd ./unikraft-starter/apps/helloworld
 make menuconfig
 make
 ```

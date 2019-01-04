@@ -1,4 +1,5 @@
-# unikraft-test
+# unikraft-starter
+Repository for evaluation of Unikraft.
 https://www.xenproject.org/developers/teams/unikraft.html
 
 ## Setup

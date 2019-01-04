@@ -1,0 +1,12 @@
+[submodule "unikraft"]
+	path = unikraft
+	url = https://xenbits.xen.org/git-http/unikraft/unikraft.git
+[submodule "apps/helloworld"]
+	path = apps/helloworld
+	url = https://xenbits.xen.org/git-http/unikraft/apps/helloworld.git
+[submodule "libs/lwip"]
+	path = libs/lwip
+	url = https://xenbits.xen.org/git-http/unikraft/libs/lwip.git
+[submodule "libs/newlib"]
+	path = libs/newlib
+	url = https://xenbits.xen.org/git-http/unikraft/libs/newlib.git

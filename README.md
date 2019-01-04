@@ -3,7 +3,12 @@ Repository for evaluation of [Unikraft](https://www.xenproject.org/developers/te
 
 ## Setup
 [CentOS](https://www.centos.org/) enviroment is required. 
-#### 1.Install GNU make 4.1
+#### 1.Install gcc / ncurses
+```
+yum install -y gcc ncurses-devel
+```
+
+#### 2.Install GNU make 4.1
 ```
 cd /tmp
 wget http://ftp.gnu.org/gnu/make/make-4.1.tar.gz
@@ -17,11 +22,6 @@ rm -rf make-4.1.tar.gz make-4.1
 export PATH=$PATH:/usr/local/bin/make
 ```
 You can make it your default make by prefixing /usr/local/bin to your $PATH variable in your shell startup file; for instance, in .bashrc if you use the bash shell.
-
-#### 2.Install ncurses
-```
-yum install -y ncurses-devel
-```
 
 #### 3.Get modules
 ```
@@ -38,4 +38,14 @@ make
 ## Run helloworld
 ```
 ./build/helloworld_linuxu-x86_64
+```
+Execution result
+```
+Welcome to  _ __             _____
+ __ _____  (_) /__ _______ _/ _/ /_
+/ // / _ \/ /  '_// __/ _ `/ _/ __/
+\_,_/_//_/_/_/\_\/_/  \_,_/_/ \__/
+                  Titan 0.2~8b94640
+Hello world!
+Arguments:  "./build/helloworld_linuxu-x86_64"
 ```
